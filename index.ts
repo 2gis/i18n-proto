@@ -7,7 +7,7 @@ export type SingleI18NEntry = {
   type: 'single';
   entry: string;
   context?: string;
-  occurences: IdentInfo[];
+  occurences: string[];
   comments?: string[];
   translations: string[];
 };
@@ -16,7 +16,7 @@ export type PluralI18NEntry = {
   type: 'plural';
   entry: string[];
   context?: string;
-  occurences: IdentInfo[];
+  occurences: string[];
   comments?: string[];
   translations: string[];
 };
