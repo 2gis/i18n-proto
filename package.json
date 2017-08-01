@@ -1,6 +1,6 @@
 {
   "name": "i18n-proto",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Typings & protocol description for i18n interactions",
   "main": "index.ts",
   "scripts": {

@@ -9,7 +9,7 @@ export type SingleI18NEntry = {
   context?: string;
   occurences?: string[];
   comments?: string[];
-  translations: string;
+  translation?: string;
 };
 
 export type PluralI18NEntry = {
